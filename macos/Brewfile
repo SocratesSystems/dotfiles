@@ -47,34 +47,35 @@ brew 'php71-intl'
 brew 'php71-libsodium'
 brew 'php71-mcrypt'
 
+## Node
+
+brew 'node'
+
 ## Applications
 
 cask 'google-chrome'
 cask 'firefox'
-cask 'cloud'
 cask 'flux'
 cask 'slack'
-cask 'skype'
-cask 'discord'
 cask 'iterm2'
 cask 'spectacle'
 cask 'alfred'
 cask 'atom'
-cask 'intellij-idea'
-cask 'razer-synapse'
+cask 'phpstorm'
 cask 'spotify'
 cask 'spotify-notifications'
 cask 'dash'
-# cask 'gpgtools' # Leaving this in for reference - but I've found this cask to hang at times...
+cask 'gpgtools'
 cask 'virtualbox'
-cask 'tunnelblick'
+cask 'vagrant'
 cask 'hipchat'
-cask 'lastpass'
-cask 'veertu-desktop'
 cask 'sequel-pro-nightly'
 cask 'postico'
-cask 'teamviewer'
 cask 'docker'
+cask 'cyberduck'
+cask 'postman'
+cask 'steam'
+cask 'bbedit'
 
 ## Fonts
 
