@@ -3,7 +3,7 @@ export ZPLUG_HOME=~/.zplug
 
 if [[ ! -d ~/.zplug ]]; then
   echo "Installing zplug"
-  curl -sL zplug.sh/installer | zsh
+  curl -sL https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 fi
 
 source $ZPLUG_HOME/init.zsh
