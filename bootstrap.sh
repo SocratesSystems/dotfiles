@@ -20,7 +20,7 @@ fancy_echo 'Installing yadm'
 brew install yadm
 
 fancy_echo 'Cloning repo'
-yadm clone git@github.com:Lavoaster/dotfiles.git
+yadm clone git@github.com:SocratesSystems/dotfiles.git
 yadm submodule update --init --recursive
 
 touch ~/.zshrc.local
