@@ -9,5 +9,5 @@ Shoutout to the following repositories:
 Supposedly simple setup for macOS:
 
 ```
-curl -L https://raw.githubusercontent.com/Lavoaster/dotfiles/master/bootstrap.sh | bash
+curl -L https://raw.githubusercontent.com/SocratesSystems/dotfiles/master/bootstrap.sh | bash
 ```
