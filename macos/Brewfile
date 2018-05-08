@@ -16,7 +16,6 @@ brew 'the_silver_searcher'
 brew 'postgresql'
 brew 'mysql'
 brew 'redis'
-brew 'phantomjs'
 brew 'hub'
 brew 'vim'
 brew 'neovim'
@@ -37,15 +36,14 @@ brew 'fzf'
 brew 'yarn'
 brew 'fswatch'
 brew 'unison'
+brew 'nmap'
+brew 'diff-so-fancy'
 
 ## PHP
 
 brew 'php71'
-brew 'php71-pdo-pgsql'
-brew 'php71-ssh2'
 brew 'php71-intl'
 brew 'php71-libsodium'
-brew 'php71-mcrypt'
 
 ## Node
 
@@ -56,10 +54,9 @@ brew 'node'
 cask 'google-chrome'
 cask 'firefox'
 cask 'slack'
+cask 'cloud'
 cask 'iterm2'
 cask 'spectacle'
-cask 'atom'
-cask 'phpstorm'
 cask 'dash'
 cask 'gpgtools'
 cask 'virtualbox'
@@ -72,6 +69,11 @@ cask 'cyberduck'
 cask 'postman'
 cask 'steam'
 cask 'bbedit'
+cask 'jetbrains-toolbox'
+cask 'visual-studio-code'
+
+# cask 'spotify'
+# cask 'spotify-notifications'
 
 ## Fonts
 
