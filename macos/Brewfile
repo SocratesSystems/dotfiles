@@ -37,6 +37,7 @@ brew 'fswatch'
 brew 'socratessystems/socrates/unison'
 brew 'nmap'
 brew 'diff-so-fancy'
+brew 'asdf'
 
 ## PHP
 
