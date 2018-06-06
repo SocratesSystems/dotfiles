@@ -6,6 +6,7 @@ tap 'caskroom/versions'
 tap 'caskroom/fonts'
 tap 'jhawthorn/fzy'
 tap 'neovim/neovim'
+tap 'socratessystems/socrates'
 
 ## CLI
 
