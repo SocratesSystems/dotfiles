@@ -126,12 +126,13 @@ if which nvim >/dev/null 2>&1; then
   alias vim='nvim'
 fi
 
-if [[ ! -d ~/.zplug ]]; then
+if [[ ! -f ~/.socrates-asdf-init ]]; then
   echo "Setting up nodejs"
   asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
   bash /usr/local/opt/asdf/plugins/nodejs/bin/import-release-team-keyring
   asdf install node 9.11.1
   asdf global nodejs 9.11.1
+  touch ~/.socrates-asdf-init
 fi 
 
 source ~/.zshrc.local
