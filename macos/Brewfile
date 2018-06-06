@@ -6,7 +6,6 @@ tap 'caskroom/versions'
 tap 'caskroom/fonts'
 tap 'jhawthorn/fzy'
 tap 'neovim/neovim'
-tap 'homebrew/homebrew-php'
 
 ## CLI
 
@@ -33,32 +32,29 @@ brew 'git-crypt'
 brew 'zplug'
 brew 'fzy'
 brew 'fzf'
-brew 'yarn'
 brew 'fswatch'
-brew 'unison'
+brew 'socratessystems/socrates/unison'
 brew 'nmap'
 brew 'diff-so-fancy'
 
 ## PHP
 
-brew 'php71'
-brew 'php71-intl'
-brew 'php71-libsodium'
+brew 'php'
 
 ## Node
 
 brew 'node'
+brew 'yarn'
 
 ## Applications
 
 cask 'google-chrome'
 cask 'firefox'
-cask 'slack'
-cask 'cloud'
+cask 'cloudapp'
 cask 'iterm2'
 cask 'spectacle'
 cask 'dash'
-cask 'gpgtools'
+cask 'gpg-suite'
 cask 'virtualbox'
 cask 'vagrant'
 cask 'hipchat'
@@ -71,9 +67,9 @@ cask 'steam'
 cask 'bbedit'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
-
-# cask 'spotify'
-# cask 'spotify-notifications'
+cask 'spotify'
+cask 'spotify-notifications'
+cask 'stride'
 
 ## Fonts
 
