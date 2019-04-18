@@ -162,3 +162,26 @@ handle_completion_insecurities
 compinit -i -C -d "${ZSH_COMPDUMP}"
 
 zplugin cdreplay -q
+
+#
+
+setup-dnsmasq() {
+  brew install dnsmasq
+  echo "Elevating Permissions to setup dnsmasq"
+
+  sudo -v
+  sudo tee /usr/local/etc/dnsmasq.conf >/dev/null <<EOF
+address=/test/127.0.0.1
+EOF
+
+  sudo cp $(brew list dnsmasq | grep /homebrew.mxcl.dnsmasq.plist$) /Library/LaunchDaemons/
+  sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
+
+  sudo launchctl stop homebrew.mxcl.dnsmasq
+  sudo launchctl start homebrew.mxcl.dnsmasq
+
+  sudo mkdir /etc/resolver
+  sudo tee /etc/resolver/test >/dev/null <<EOF
+nameserver 127.0.0.1
+EOF
+}
