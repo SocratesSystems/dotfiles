@@ -68,6 +68,7 @@ cask 'bbedit'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
 cask 'stride'
+cask 'wkhtmltopdf'
 
 ## Fonts
 
