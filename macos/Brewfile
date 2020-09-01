@@ -8,7 +8,7 @@ tap 'jhawthorn/fzy'
 tap 'neovim/neovim'
 tap 'socratessystems/socrates'
 
-## CLI
+## CLI 
 
 brew 'git'
 brew 'libgit2'
