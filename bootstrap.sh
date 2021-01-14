@@ -10,7 +10,8 @@ fancy_echo() {
 
 if ! command -v brew >/dev/null; then
   fancy_echo "Installing Homebrew ..."
-  curl -fsS 'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby
+  #curl -fsS 'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 else
   fancy_echo "Homebrew already installed. Skipping ..."
 fi
